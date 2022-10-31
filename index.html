@@ -10,9 +10,9 @@
     <!-- CSS -->
     <link rel="stylesheet" href="CSS/estilo.css">
 </head>
-<body class="container">
+<body class="container-fluid">
     <header>
-        <h1>Bikering.com.ar</h1>
+        <h1 class="text-center mt-5">Bikering.com.ar</h1>
         <nav>
             <ul>
                 <li><a href="index.html">Inicio</a></li>
@@ -35,6 +35,27 @@
         </div>
 
     </main>
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="/img/MTB1.jfif" class="d-block w-100" alt="ImagenMtb">
+          </div>
+          <div class="carousel-item">
+            <img src="/img/MTB2.jfif" class="d-block w-100" alt="ImagenMtb">
+          </div>
+          <div class="carousel-item">
+            <img src="/img/Ruta2.jfif" class="d-block w-100" alt="ImagenRuta">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
     <footer>
         <h3>Todos los derechos reservados</h3>
         <a href="">Facebook</a>  <a href="">Istagram</a>  <a href="">Twiter</a>
