@@ -79,3 +79,12 @@ form {
 div {
     text-align: center;
 }
+
+.img-fluid {
+    width: 100%;
+}
+
+.imgcontenedor {
+    height: 50%;
+    width: 90%;
+}
