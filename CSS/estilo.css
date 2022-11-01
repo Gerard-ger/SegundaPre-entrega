@@ -13,7 +13,7 @@ h1 {
 }
 
 header {
-    background-color: bisque;
+    background-color: lightblue;
 
 }
 
@@ -27,8 +27,9 @@ li {
 /* MAIN */
 .parrafo {
     text-align: center;
-    font-size: 30px;
+    font-size: 40px;
     font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue;
 
 }
 
@@ -61,11 +62,11 @@ h3 {
 
 footer {
     text-align: center;
-    background-color: blanchedalmond;
+    background-color: #9b7885;
 }
 
 main {
-    background-color: beige;
+    background-color: rgb(71, 71, 246);
 
 
 }
@@ -84,3 +85,29 @@ div {
     width: 100%;
 }
 
+.titulo {
+    font-size: 200%;
+}
+
+.parrafoRuta {
+    font-size: 150%;
+}
+
+.imgSize {
+    height: 50%;
+}
+
+.form-check {
+    text-align: center;
+}
+.form-check-label {
+    margin: 0;
+}
+
+.navbar {
+    background-color: aqua;
+}
+
+.itemDiv {
+    font-size: 150%;
+}
