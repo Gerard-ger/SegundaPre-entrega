@@ -18,7 +18,7 @@ header {
 }
 
 li {
-    margin-left: 120px;
+    margin-left: 0px;
     list-style-type: none;
     display: inline-block;
     text-align: center;
@@ -106,6 +106,14 @@ div {
 
 .navbar {
     background-color: aqua;
+    text-align: center;
+}
+
+.navbar-nav {
+    text-align: center;
+}
+
+.ulEstilo {
     text-align: center;
 }
 
