@@ -121,3 +121,6 @@ div {
     font-size: 150%;
 }
 
+.itemBurger {
+    justify-content: center;
+}
