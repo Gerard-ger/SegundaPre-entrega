@@ -7,7 +7,7 @@ a {
   
   h1 {
     text-align: center;
-    color: black;
+    color: black; 
   }
   
   header {
@@ -54,7 +54,7 @@ a {
   
   footer {
     text-align: center;
-    background-color: #9b7885;
+    background-color: bisque;
   }
   
   main {
